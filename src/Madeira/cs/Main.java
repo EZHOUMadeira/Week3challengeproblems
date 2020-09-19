@@ -39,7 +39,6 @@ public class Main {
         System.out.println("Number guessing game");
         System.out.println("Type in any number that is from 1 to 100, you have 10 tries");
         for (int i = 10; i > 0; i--) {
-            for (int j = 9; j > 0; j--) {
                 Scanner myScanner4 = new Scanner(System.in);
                 String myScannedInput3 = myScanner4.nextLine();
                 if (myScannedInput3.equals("7")) {
@@ -49,16 +48,7 @@ public class Main {
                     System.out.println("You are wrong, please try again");
                 }
             }
-            Scanner myScanner5 = new Scanner(System.in);
-            String myScannedInput4 = myScanner5.nextLine();
-            if (myScannedInput4.equals("7")) {
-                System.out.println("Congrats, you got it right!");
-                break;
-            } else {
-                System.out.println("You are out of tries");
-            }
-        }
-        //I don't know how to make it stop when you typed in the correct number. Break didn't work.
+
 
         //Challenge problem 4
         for (int i = 5; i > 0; i--) {

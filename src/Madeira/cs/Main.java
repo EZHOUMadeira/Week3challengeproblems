@@ -7,6 +7,14 @@ import static java.lang.System.*;
 
 public class Main {
 
+    /*
+
+        Ellie - 
+        Nice work on these.
+        Close with the extra credit, but not quite. See me 
+        for an explanation of how to do it if you want.
+    */
+
     private static Object Scanner;
 
     public static void main(String[] args) {
